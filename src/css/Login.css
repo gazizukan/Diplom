@@ -1,6 +1,6 @@
 /* Made with love by Mutiullah Samim*/
 
-@import url('https://fonts.googleapis.com/css?family=Numans');
+
 
 .container{
 height: 100%;
@@ -62,13 +62,14 @@ margin-right: 5px;
 }
 
 .login_btn{
-color: black;
+color: white;
 background-color: #5cad2f;
 width: 100px;
+cursor: pointer;
 }
 
 .login_btn:hover{
-color: black;
+color: white;
 background-color: white;
 }
 

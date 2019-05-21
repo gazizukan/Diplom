@@ -51,12 +51,13 @@ input{
   width: 11%;
   text-align: center;
   height: 50px;
+  line-height: 50px;
   color: white;
   transition-duration: 0.4s;
 }
 .search-btn:hover{
-  background-color: #333;
-  color: white;
+  background-color:#979797;
+  color: black;
 }
 .whatisgasstation-h{
   position: absolute;

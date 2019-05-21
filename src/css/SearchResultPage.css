@@ -24,7 +24,8 @@
     justify-content: space-between;
 }
 .company-img{
-   border-radius: 50px;
+   width: 45px;
+   height: 42px;
 }
 .compamies-detail-left-in{
     padding-left: 2%;
@@ -69,6 +70,7 @@
 .cities{
    
 }
-.cities-p h4{
+.cities h4{
     font-size: 16px;
+    color: #BCA942;
 }

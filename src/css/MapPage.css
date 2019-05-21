@@ -11,6 +11,7 @@
 }
 .show-map{
     position: absolute;
+    color: white;
     top: 100%;
     right: 40%;
     width: 100px;

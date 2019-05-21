@@ -42,7 +42,7 @@ class MainPage extends Component {
           <div id= "header-main-container">
             <img className="logo" src={require('../images/logo-dark.svg')}alt=""/>
             <div className= "dropdown">
-              <button className="dropbtn">Menu</button>
+              <a className="dropbtn">Menu</a>
               <div className="dropdown-content">
               <Link to = '/'>Home</Link>
               <Link to = '/map'>Map</Link>

@@ -5,6 +5,9 @@ import HomePage from './HomePage'
 import AuthorizationPage from './AuthorizationPage'
 import '../css/MainPage.css';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
 
 class MainPage extends Component {
   constructor(props){
@@ -64,7 +67,7 @@ class MainPage extends Component {
           <Router>
           <div id= "header-main-container">
             <div className= "dropdown">
-              <button className="dropbtn">Menu</button>
+              <a className="drop">Menu</a>
               <div className="dropdown-content">
                 <Link to = '/'>Home</Link>
                 <Link to = '/map'>Map</Link>
@@ -88,5 +91,7 @@ class MainPage extends Component {
 }
 }
 export default MainPage;
+
+library.add(faStroopwafel);
 
 

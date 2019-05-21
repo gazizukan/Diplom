@@ -3,7 +3,7 @@ import client from '../client.js'
 import TextInput from '../components/Form/TextInput'
 import Password from '../components/Form/Password'
 import validate from '../components/Form/validate'
-import '../css/Login.css';
+import '../css/Register.css';
 
 class RegistrationForm extends Component {
   constructor(props){
@@ -167,7 +167,7 @@ class RegistrationForm extends Component {
 
   render() {
     return (
-      <div className="login">
+     /* <div className="login">
       <h3>Register</h3>
       <TextInput className="user" name = "username" placeholder={this.state.formControls.username.placeholder}
                                value={this.state.formControls.username.value}
@@ -188,7 +188,61 @@ class RegistrationForm extends Component {
       <button className="login-btn" onClick={this.formSubmitHandler} disabled={!this.state.formIsValid} > Register </button>  
       <h5>Already have an account?</h5>
       <button className="reg-btn" onClick = {this.onRegLoginButtonClick}>Login</button>                      
-      </div>
+      </div>*/
+      <body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Sign Up</h3>
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><img src={require('../images/user-silhouette.png')} alt=""/></span>
+						</div>
+						<input type="text" class="form-control" name = "username" placeholder={this.state.formControls.username.placeholder}
+                               value={this.state.formControls.username.value}
+                               onChange={this.changeHandler}
+                               touched={this.state.formControls.username.touched}
+                               valid={this.state.formControls.username.valid}/>
+						
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><img src={require('../images/key.png')} alt=""/></span>
+						</div>
+						<input type="password" class="form-control" name = "password" placeholder={this.state.formControls.password.placeholder}
+                               value={this.state.formControls.password.value}
+                               onChange={this.changeHandler}
+                               touched={this.state.formControls.password.touched}
+                               valid={this.state.formControls.password.valid}/>
+					</div>
+          <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><img src={require('../images/key.png')} alt=""/></span>
+						</div>
+						<input type="password" class="form-control" name = "confirmPassword" placeholder={this.state.formControls.confirmPassword.placeholder}
+                               value={this.state.formControls.confirmPassword.value}
+                               onChange={this.changeHandler}
+                               touched={this.state.formControls.confirmPassword.touched}
+                               valid={this.state.formControls.confirmPassword.valid}/>
+					</div>
+					<div class="form-group">
+						<input onClick={this.formSubmitHandler} disabled={!this.state.formIsValid} value="Register" class="btn float-right login_btn"/>
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					Already have an account?<a onClick={this.onRegLoginButtonClick} href="#">Sign In</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
     );
   }
 }

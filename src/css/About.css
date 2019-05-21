@@ -1,0 +1,83 @@
+.about-container{
+    width: 100%;
+}
+.about-us-head{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+}
+.about-us{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about-us-text{
+    width: 50%;
+}
+.about-us-img{
+    width: 50%;
+    height: 100px;
+}
+.about-us-img img{
+    width: 100%;
+}
+.our-team{
+    width: 100%;
+    background-color: #0BB2C6;
+}
+.our-team-h{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.our-team-card{
+    margin-top: 1%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+  
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.our-partners{
+    width: 100%;
+    margin-top: 2%;
+}
+.our-partners-h{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}

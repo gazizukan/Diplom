@@ -1,0 +1,75 @@
+.body-container{
+  width: 100%;
+}
+.logo{
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  height: 5%;
+}
+.dropbtn {
+    font-size: 14px;
+    font-family: var(--font-main),sans-serif;
+    cursor: pointer;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    background-color: #5cad2f;
+    border-color: #5cad2f;
+    overflow: hidden;
+  }
+  
+  .dropdown {
+    position: relative;
+    width: 6%;
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .main-container{
+    background-color: white;
+  }
+  #header-main-container{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.profileButton{ 
+  width: 6%;
+  height: 30px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  background-color: #5cad2f;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 5%;
+  margin-top: 20px;
+  text-align: center;
+}

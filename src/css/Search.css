@@ -1,0 +1,107 @@
+.search-main-container{
+  background-image: url('../images/Gas-Station-At-Night.jpg');
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.form-control {
+    width: 50%;
+    border: 1px solid #333;
+    padding: 10px;
+    height: 50px !important;
+    opacity: 0.6; 
+  }
+  
+.control-error {
+    border: 1px solid red;
+  }
+  
+table.searchField{
+    margin: 0px auto;
+    padding-top: 20%;
+}
+input{
+    width: 250px;
+    height: 50px;
+    border-radius: 6px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.search-city{
+  position: absolute;
+  top: 63%;
+  left: 0;
+  width: 33%;
+  margin-left: 5%;
+}
+.tick-petrol{
+  position: absolute;
+  left: 38%;
+  top: 63%;
+  height: 50px;
+  opacity: 0.6;
+}
+.search-btn{
+  position: absolute;
+  left: 19%;
+  top: 79%;
+  background-color: #5cad2f;
+  border-radius: 50px;
+  width: 11%;
+  text-align: center;
+  height: 50px;
+  color: white;
+  transition-duration: 0.4s;
+}
+.search-btn:hover{
+  background-color: #333;
+  color: white;
+}
+.whatisgasstation-h{
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  width: 50%;
+}
+.whatisgasstation-h h1{
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 67px;
+  color: #5cad2f;
+  font-weight: bolder;
+}
+.whatisgasstation-p{
+  width: 75%;
+  color: white;
+  padding-left: 21%;
+  font-family:Roboto,Helvetica,Arial,sans-serif;
+  font-size: 20px; 
+}
+.our-benefits{
+  margin-top: 5%;
+}
+#title {
+  text-align: center;
+  }
+  .content-body {
+  
+      display:flex; 
+      flex-direction:row;
+      justify-content: space-around;
+  }
+  
+  .content-inside{
+     display:flex; 
+     flex-direction:column;
+     align-items: center;
+     text-align: center;
+     width: 140px;
+  }
+  .img{
+      width: 60px;
+      height: 60px;
+  }
+  .content-inside-p{
+    color: #BCA942;
+  }
+

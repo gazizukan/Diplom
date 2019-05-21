@@ -1,0 +1,74 @@
+.search-container{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 1%;
+}
+.petrol-p{
+    font-size: 22px;
+    color: #333164;
+    font-weight: bold;
+}
+.companies{
+    width: 60%;
+    height: 100px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.compamies-detail {
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.company-img{
+   border-radius: 50px;
+}
+.compamies-detail-left-in{
+    padding-left: 2%;
+}
+.company-name-p{
+    font-size: 16px;
+    color: #333164;
+    font-weight: bold;
+}
+.company-rate-img{
+    padding-top: 7%;
+}
+.petrol-price{
+    margin-right: 2%;
+    border-left: 1px dotted #C4C4C4;
+    font-size: 20px;
+    color: #333164;
+    align-items: center;
+}
+.petrol-price p{
+    margin-top: 25%;
+    padding-left: 15%;
+}
+.other-city-h{
+    position: absolute;
+    top: 15%;
+    left: 63%;
+    width: 32%;
+    font-size: 22px;
+    color: #333164;
+    font-weight: bold;
+}
+.other-city{
+    position: absolute;
+    top: 21.8%;
+    left: 63%;
+    width: 32%;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.cities{
+   
+}
+.cities-p h4{
+    font-size: 16px;
+}

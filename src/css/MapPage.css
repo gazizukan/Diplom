@@ -1,0 +1,19 @@
+.map{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.select-city-map{
+    position: absolute;
+    left: 60%;
+    width: 35%;
+}
+.show-map{
+    position: absolute;
+    top: 100%;
+    right: 40%;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #5cad2f;
+}

@@ -1,0 +1,106 @@
+.company-container{
+    width: 100%;
+    background-color: white;
+}
+.company-data{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.company-info{
+    margin-top: 5%;
+}
+.company-name{
+    height: 100px;
+    background-color: white;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.company-name-text{
+    margin-top: 2%;
+}
+.company-name-text h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333164;
+}
+.company-name img{
+    display: flex;
+}
+.company-logo{
+    width: 5%;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 50px;
+}
+.company-logo img{
+    border-radius: 50px;
+}
+.company-petrol-price{
+    margin-top: 5%;
+    height: 200px;
+}
+.company-street{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.company-street-info{
+    width: 20%;
+}
+.company-street-info-in{
+    width: 100%;
+    background-color: #E9E9E9;
+}
+.company-street-info-in a{
+    font-size: 16px;
+    color: #333164;
+    font-weight: bold;
+}
+.station-rating{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: -12%;
+}
+.payment-container{
+    padding-top: 5%;
+}
+.station-rate-img{
+    width: 100%;
+}
+.station-img{
+    width: 100%;
+    height: 150px;
+}
+.petrol-box{
+    width: 20%;
+    height: 70%;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.payment-head{
+    color: #BCA942;
+}
+.payment{
+    margin-left: 10%;
+    width: 200px;
+    justify-content: space-between;
+}
+.cash-card-p{
+    font-size: 12px;
+}
+.petrol-name-p{
+    margin-top: 7%;
+    margin-left: 40%;
+    color: #BCA942;
+}
+.petrol-price-p{
+    margin-left: 40%;
+    font-size: 25px;
+    color: #333164;
+}

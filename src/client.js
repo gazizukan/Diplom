@@ -42,7 +42,6 @@ module.exports = {
   },
 
   getReviews(success){
-    console.log('review');
     fetch(`${BASE_URL}/reviews/`)
       .then(response => response.json())
       .then(success)
@@ -53,6 +52,12 @@ module.exports = {
       'method': 'POST',
       'body': JSON.stringify(data) 
     })
+      .then(response => response.json())
+      .then(success)
+  },
+
+  getAdverts(success){
+    fetch(`${BASE_URL}/adverts/`)
       .then(response => response.json())
       .then(success)
   },

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import client from '../client.js'
 import TextArea from '../components/Form/TextArea'
 import Select from '../components/Form/Select'
+import TextInput from '../components/Form/TextInput'
 import validate from '../components/Form/validate'
 import '../css/StationDetailPage.css'
 
@@ -117,7 +118,7 @@ class ReviewForm extends Component {
   render() {
     return (
       <div className="review-form d-flex">
-        <TextArea className="review-content" name = "content" placeholder={this.state.formControls.content.placeholder}
+        <TextInput className="review-content" name = "content" placeholder={this.state.formControls.content.placeholder}
                                 value={this.state.formControls.content.value}
                                 onChange={this.changeHandler}
                                 touched={this.state.formControls.content.touched}

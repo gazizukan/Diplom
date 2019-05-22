@@ -32,7 +32,7 @@
 }
 .company-name-p{
     font-size: 16px;
-    color: #333164;
+    color: #333164 !important;
     font-weight: bold;
 }
 .company-rate-img{

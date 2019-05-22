@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import '../css/AdvertLIne.css';
+import {Link} from 'react-router-dom';
+import AdvertContent from '../components/AdvertContent';
 class AdvertLine extends Component {
   constructor(props) {
       super(props);
+      this.handleClick = this.handleClick.bind(this);
   }
- 
+  handleClick(selectedAdvertId) {
+    this.props.onAdvertClick({bodyContent: "/advertcontent", selectedAdvertId: selectedAdvertId});
+  }
   render() {
     return (
         <div id="base">
-            <a href="https://www.ea.com/fr-fr/games/need-for-speed/need-for-speed-payback" target="_blank">
               <div>
                 <img src="https://d3vl3jxeh4ou3u.cloudfront.net/gas%20station.jpg?AWSAccessKeyId=AKIAJNCWKHG7HVI6CO4A&Expires=2079558364&Signature=awQU2arcltoFU1RxN1WnhFMgzO8%3D" class="long" alt="run"/>
                 <img src="http://kgm.kz/incom/template/template1/images/logo.png" class="ea" alt="ea"/>
@@ -18,13 +22,12 @@ class AdvertLine extends Component {
                 </div>
                 <div class="slid1"></div>
                 <div class="butd">
-                    <button class="but">See more</button>
+                    <Link onClick={this.handleClick} to='/advertcontent' class="but">See more</Link>
                 </div>
                 <div class="h2">
                    <h1>Available</h1>
                 </div>
               </div>
-            </a>
         </div>
 
     );

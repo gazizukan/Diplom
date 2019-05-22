@@ -163,12 +163,12 @@
           left: 1500px;
       }
   
-      70% {
-          left: 558px;
+      50% {
+          left: 858px;
       }
   
       90% {
-          left: 558px;
+          left: 858px;
       }
   
       99% {
@@ -183,15 +183,15 @@
       }
   
       60% {
-          left: 385px;
+          left: 585px;
       }
   
       90% {
-          left: 385px;
+          left: 585px;
       }
   
       99% {
-          left: 1500px;
+          left: 1000px;
       }
   }
   

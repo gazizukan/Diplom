@@ -119,6 +119,10 @@
 .mark{
 
 }
+.review-content{
+    width: 1020px;
+    height: 96px;
+}
 .add-review{
     margin-left: 3%;
     width: 100%;

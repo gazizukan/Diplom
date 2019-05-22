@@ -38,25 +38,16 @@ class AboutUs extends Component {
         </div>
         <div className="our-team d-flex">
           <h2 className="ot-h2">Our Team</h2>
+          {
+            this.state.members.map((member)=>
             <div className="team-card">
               <img className="team-img" src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg" alt=""/>
-              <p className="team-name">Makpal Serikkalieva</p>
-              <p className="major">Executive Director</p>
+              <p className="team-name">{member.member_first_name}</p>
+              <p className="major">{member.position}</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati magnam dolore eaque? Nesciunt dicta quidem quam officia mollitia atque nemo laboriosam accusamus velit tenetur architecto, magni error, sint iusto amet!</p>
             </div>
-            <div className="team-card">
-              <img className="team-img" src="https://gpluseurope.com/wp-content/uploads/Mauro-profile-picture.jpg" alt=""/>
-              <p className="team-name">Gaziz Ukan</p>
-              <p className="major">CEO</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque officiis, quia molestiae quos voluptatum maiores placeat architecto ab quas debitis laboriosam dolorem dolore cumque quod. Officia ducimus quasi qui ipsa?</p>
-            </div>
-            <div className="team-card">
-              <img className="team-img" src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg" alt=""/>
-              <p className="team-name">Izni Altynai</p>
-              <p className="major">Project and Office Manager</p>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, quidem vel? Ad, ea reiciendis expedita odio, officiis non voluptatum at, neque illo consequatur esse qui fuga quia quo iusto fugit.</p>
-            </div>
-
+            )
+          }
         </div>
         <h2 className="our-partners-h2">Our Partners</h2>
         <div className="our-partners">

@@ -7,8 +7,8 @@ class HomePage extends Component {
   render() {
     return (
         <div>
-          <Body username = {this.props.username} isAuthorized = {this.props.isAuthorized}></Body>
           <AdvertLine></AdvertLine>
+          <Body username = {this.props.username} isAuthorized = {this.props.isAuthorized}></Body>
           <Footer></Footer>
         </div>
     );

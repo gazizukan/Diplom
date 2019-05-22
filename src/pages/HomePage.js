@@ -8,6 +8,7 @@ class HomePage extends Component {
     return (
         <div>
           <Body username = {this.props.username} isAuthorized = {this.props.isAuthorized}></Body>
+          <AdvertLine></AdvertLine>
           <Footer></Footer>
         </div>
     );

@@ -236,7 +236,7 @@ class RegistrationForm extends Component {
 			</div>
 			<div class="card-footer">
 				<div class="d-flex justify-content-center links">
-					Already have an account?<a onClick={this.onRegLoginButtonClick} href="#">Sign In</a>
+					Already have an account?<a className="sign-in-up" onClick={this.onRegLoginButtonClick} href="#">Sign In</a>
 				</div>
 			</div>
 		</div>

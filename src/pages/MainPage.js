@@ -75,8 +75,8 @@ class MainPage extends Component {
               </div>
             </div>
               <div >
-                <button className = "profileButton" onClick = {this.onLogoutButtonClick}>Logout</button>
-                <h5>{this.state.username}</h5>
+                <button className = "profileButton1" onClick = {this.onLogoutButtonClick}>Logout</button>
+                <h5 className="profile-button-user">{this.state.username}</h5>
               </div>
             </div>
               <Switch>

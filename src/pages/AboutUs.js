@@ -41,7 +41,7 @@ class AboutUs extends Component {
           {
             this.state.members.map((member)=>
             <div className="team-card">
-              <img className="team-img" src="https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg" alt=""/>
+              <img className="team-img" src={member.member_img} alt=""/>
               <p className="team-name">{member.member_first_name}</p>
               <p className="major">{member.position}</p>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati magnam dolore eaque? Nesciunt dicta quidem quam officia mollitia atque nemo laboriosam accusamus velit tenetur architecto, magni error, sint iusto amet!</p>

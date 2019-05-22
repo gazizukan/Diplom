@@ -77,3 +77,23 @@ body{
   margin-top: 20px;
   text-align: center;
 }
+.profileButton1{ 
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  height: 30px;
+  color: white;
+  line-height: 30px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  background-color: #5cad2f;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+.profile-button-user{
+  margin-top: 45px;
+  margin-right: 25px;
+}
